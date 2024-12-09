@@ -7,6 +7,7 @@ int SumAB(int a, int b) {
     return a + SumAB(a + 1, b);
 }
 int main() {
+    setlocale(LC_ALL, "Russian");
     int a, b;
     cout << "Введите a: \n";
     cin >> a;
